@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
+    "@azure/cosmos": "^4.9.0",
+    "@azure/storage-blob": "^12.29.1",
     "accepts": "^2.0.0",
     "agent-base": "^7.1.4",
     "append-field": "^1.0.0",
@@ -97,8 +99,8 @@
     "xtend": "^4.0.2"
   },
   "scripts": {
-  "start": "node index.js"
-},
+    "start": "node index.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
