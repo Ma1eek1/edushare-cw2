@@ -27,9 +27,9 @@ jobs:
         with:
           node-version: '20.x'
 
-      - name: npm install, build, and test
-        working-directory: api
+      - name: npm install
         run: |
+          cd api
           npm install
 
       - name: Upload artifact for deployment job
@@ -67,6 +67,7 @@ jobs:
           package: api
 
           
+
 
 
 
