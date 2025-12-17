@@ -61,5 +61,6 @@ jobs:
         with:
           app-name: 'edushareapi123'
           slot-name: 'Production'
-          package: .
+          package: api
+
           
