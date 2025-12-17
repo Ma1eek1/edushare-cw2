@@ -29,7 +29,10 @@ jobs:
 
       - name: npm install
         run: |
-          cd api
+          ls -la
+          ls -la $GITHUB_WORKSPACE
+          ls -la $GITHUB_WORKSPACE/api
+          cd $GITHUB_WORKSPACE/api
           npm install
 
       - name: Upload artifact for deployment job
@@ -67,6 +70,7 @@ jobs:
           package: api
 
           
+
 
 
 
